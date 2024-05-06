@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pricing-container{
+    display: flex;
+    
+}
+.pricing-plan{
+    background-color:rgb(222, 221, 221);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    line-height: 25px;
+}
+.plan-title{
+    font-weight: 700;
+}
+.plan-price{
+    font-weight: 700;
+    font-size: 2em;
+}
+.plan-features{
+    font-size: small;
+}
+button{
+    color: white;
+    background-color: orangered;
+    border-width: 0px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+
+@media (max-width:786px){
+    .pricing-container{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-around;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .pricing-plan{
+        width: 100%;
+        
+    }
+}
+@media(min-width:787px){
+    .pricing-container{
+        gap: 10px;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        min-width: 400px;
+    }
+}
+
+
+
+
