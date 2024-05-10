@@ -57,7 +57,8 @@ button{
         min-width: 400px;
     }
 }
-
-
-
-
+@media (max-width:380px){
+    .plan-price{
+        font-size: 1.3em;
+    }
+}
