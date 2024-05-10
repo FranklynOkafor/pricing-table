@@ -61,4 +61,7 @@ button{
     .plan-price{
         font-size: 1.3em;
     }
+    .pricing-container{
+        margin-left: 20%;
+    }
 }
